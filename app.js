@@ -1,4 +1,6 @@
-var User = require("./user.js");
+var greeting = require("./greeting");
  
-var user = new User("test", 32);
-user.sayHi();
+test123 = "tes3213231231t";
+ 
+global.console.log(date);
+console.log(greeting.getMessage());
