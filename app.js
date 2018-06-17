@@ -1,6 +1,10 @@
-var greeting = require("./greeting");
+var nodePath = process.argv[0];
+var appPath = process.argv[1];
+var name = process.argv[2];
+var age = process.argv[3];
  
-test123 = "tes3213231231t";
- 
-global.console.log(date);
-console.log(greeting.getMessage());
+console.log("nodePath: " + nodePath);
+console.log("appPath: " + appPath);
+console.log();
+console.log("name: " + name);
+console.log("age: " + age);
